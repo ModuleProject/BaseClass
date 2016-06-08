@@ -1,0 +1,16 @@
+PODS:
+  - BaseClass (0.1.0)
+
+DEPENDENCIES:
+  - BaseClass (from `../`)
+
+EXTERNAL SOURCES:
+  BaseClass:
+    :path: ../
+
+SPEC CHECKSUMS:
+  BaseClass: eddda8876bb9ac32df2bf229d6c5258ee925355f
+
+PODFILE CHECKSUM: 70cbe0981301bf0262d95954d1dd4dacb14f7792
+
+COCOAPODS: 1.0.1

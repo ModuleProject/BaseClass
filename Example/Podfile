@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'BaseClass_Example' do
+  pod 'BaseClass', :path => '../'
+
+  target 'BaseClass_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

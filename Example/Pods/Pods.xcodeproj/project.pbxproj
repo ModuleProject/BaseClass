@@ -13,10 +13,6 @@
 		7119557D119F2A94264C5F8B44D87F14 /* Pods-BaseClass_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5B50A6E420CE2FFEA32529D044285B /* Pods-BaseClass_Tests-dummy.m */; };
 		9113251D4346C2ED5E1E35AD48B2BB09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		94A32A57BAE23E67159EAB46DBAA05CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		999D398C1D0CFA3800C950C6 /* YMMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = 999D398A1D0CFA3800C950C6 /* YMMediator.h */; };
-		999D398D1D0CFA3800C950C6 /* YMMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 999D398B1D0CFA3800C950C6 /* YMMediator.m */; };
-		999D39911D0CFB1900C950C6 /* YMMediator+YMMediatorLoginActions.h in Headers */ = {isa = PBXBuildFile; fileRef = 999D398F1D0CFB1900C950C6 /* YMMediator+YMMediatorLoginActions.h */; };
-		999D39921D0CFB1900C950C6 /* YMMediator+YMMediatorLoginActions.m in Sources */ = {isa = PBXBuildFile; fileRef = 999D39901D0CFB1900C950C6 /* YMMediator+YMMediatorLoginActions.m */; };
 		B242CB00BDDC797ED11A423F0CBA38EC /* Pods-BaseClass_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 315658CF440FB71ADC83145BDD8330C2 /* Pods-BaseClass_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E093A47A68492C35E823E3ABC60A67D0 /* BaseClass-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 81FD72A6443F696517D2C0F613A407C6 /* BaseClass-dummy.m */; };
 		FDF260E75F54519843059FF8F22F3408 /* BaseClass-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 58D21DB06113D14DB50347DCEBC9D5B9 /* BaseClass-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -57,10 +53,6 @@
 		95325A9A1F0F8DED06002F1CED2AFF0B /* BaseClass.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BaseClass.xcconfig; sourceTree = "<group>"; };
 		9741269A2BA46C399192B136188CBF56 /* Pods_BaseClass_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BaseClass_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		990A706FF4DBBD3E8F601551368A1F45 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		999D398A1D0CFA3800C950C6 /* YMMediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMMediator.h; sourceTree = "<group>"; };
-		999D398B1D0CFA3800C950C6 /* YMMediator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMMediator.m; sourceTree = "<group>"; };
-		999D398F1D0CFB1900C950C6 /* YMMediator+YMMediatorLoginActions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YMMediator+YMMediatorLoginActions.h"; sourceTree = "<group>"; };
-		999D39901D0CFB1900C950C6 /* YMMediator+YMMediatorLoginActions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "YMMediator+YMMediatorLoginActions.m"; sourceTree = "<group>"; };
 		A7C0F5DF61B53B950061CD549FBACE94 /* Pods_BaseClass_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BaseClass_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B74A6F525F79BC644FBCF2387BF67437 /* Pods-BaseClass_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BaseClass_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CB3B6A617BAE5AF8C7964BEF340F1EE1 /* BaseClass-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BaseClass-prefix.pch"; sourceTree = "<group>"; };
@@ -101,7 +93,6 @@
 		02618C764345CDD16CF1CCC9428B4255 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				999D39891D0CFA1700C950C6 /* Mediator */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -194,26 +185,6 @@
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		999D39891D0CFA1700C950C6 /* Mediator */ = {
-			isa = PBXGroup;
-			children = (
-				999D398E1D0CFAE200C950C6 /* LogIn */,
-				999D398A1D0CFA3800C950C6 /* YMMediator.h */,
-				999D398B1D0CFA3800C950C6 /* YMMediator.m */,
-			);
-			path = Mediator;
-			sourceTree = "<group>";
-		};
-		999D398E1D0CFAE200C950C6 /* LogIn */ = {
-			isa = PBXGroup;
-			children = (
-				999D398F1D0CFB1900C950C6 /* YMMediator+YMMediatorLoginActions.h */,
-				999D39901D0CFB1900C950C6 /* YMMediator+YMMediatorLoginActions.m */,
-			);
-			name = LogIn;
-			path = Categories/LogIn;
-			sourceTree = "<group>";
-		};
 		A00B09879809343A13C4B7B52747AF55 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -256,8 +227,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDF260E75F54519843059FF8F22F3408 /* BaseClass-umbrella.h in Headers */,
-				999D39911D0CFB1900C950C6 /* YMMediator+YMMediatorLoginActions.h in Headers */,
-				999D398C1D0CFA3800C950C6 /* YMMediator.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,8 +342,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				999D398D1D0CFA3800C950C6 /* YMMediator.m in Sources */,
-				999D39921D0CFB1900C950C6 /* YMMediator+YMMediatorLoginActions.m in Sources */,
 				E093A47A68492C35E823E3ABC60A67D0 /* BaseClass-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

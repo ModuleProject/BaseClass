@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BaseClass'
-  s.version          = '0.4.0'
+  s.version          = '0.5.0'
   s.summary          = 'BaseClass.'
 
 
@@ -19,9 +19,9 @@ TODO: Add long description of the pod here.
 
 s.source_files = 'BaseClass/Classes/**/*.{h,m}'
 
-#spec.subspec 'Mediator' do |s|
-#s.source_files = 'Classes/Mediator/**/*.{h,m}'
-#end
+s.subspec 'Mediator' do |mediator|
+mediator.source_files = 'BaseClass/Classes/Mediator/**/*.{h,m}'
+end
 
 
 end

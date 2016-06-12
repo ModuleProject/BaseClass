@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BaseClass'
-  s.version          = '0.2.0'
+  s.version          = '0.3.0'
   s.summary          = 'BaseClass.'
 
 
@@ -14,11 +14,15 @@ TODO: Add long description of the pod here.
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'YM' => 'yangming@1yd.me' }
   s.source           = { :git => 'https://github.com/ModuleProject/BaseClass.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
 s.source_files = 'BaseClass/Classes/**/*.{h,m}'
+
+spec.subspec 'Mediator' do |s|
+s.source_files = 'BaseClass/Classes/Mediator/**/*.{h,m}'
+end
+
 
   # s.resource_bundles = {
   #   'BaseClass' => ['BaseClass/Assets/*.png']

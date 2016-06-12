@@ -19,16 +19,9 @@ TODO: Add long description of the pod here.
 
 s.source_files = 'BaseClass/Classes/**/*.{h,m}'
 
-spec.subspec 'Mediator' do |s|
-s.source_files = 'Classes/Mediator/**/*.{h,m}'
-end
+#spec.subspec 'Mediator' do |s|
+#s.source_files = 'Classes/Mediator/**/*.{h,m}'
+#end
 
 
-  # s.resource_bundles = {
-  #   'BaseClass' => ['BaseClass/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

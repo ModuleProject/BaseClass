@@ -20,7 +20,7 @@ TODO: Add long description of the pod here.
 s.source_files = 'BaseClass/Classes/**/*.{h,m}'
 
 spec.subspec 'Mediator' do |s|
-s.source_files = 'BaseClass/Classes/Mediator/**/*.{h,m}'
+s.source_files = 'Classes/Mediator/**/*.{h,m}'
 end
 
 

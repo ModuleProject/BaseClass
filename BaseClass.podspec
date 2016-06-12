@@ -4,8 +4,6 @@ Pod::Spec.new do |s|
   s.version          = '0.5.0'
   s.summary          = 'BaseClass.'
 
-
-
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
                        DESC
@@ -18,6 +16,6 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
 
-#s.source_files = 'BaseClass/Classes/**/*.{h,m}'
+s.source_files = 'BaseClass/**/*.{h,m}'
 
 end

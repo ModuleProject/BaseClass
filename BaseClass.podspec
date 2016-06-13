@@ -16,6 +16,14 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
 
-s.source_files = 'BaseClass/**/*.{h,m}'
+s.subspec 'Util' do |util|
+
+util.subspec 'Bundles' do |bundles|
+bundles.source_files = 'BaseClass/**/Util/Bundles/**/*.{h,m}'
+end
+
+
+
+end
 
 end
